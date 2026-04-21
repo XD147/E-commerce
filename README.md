@@ -19,5 +19,5 @@
 ## 🐳 Ejecución con Docker
 
 ```bash
-mvn clean package
+mvn clean package -DskipTests
 docker-compose up --build
